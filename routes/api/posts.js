@@ -63,6 +63,9 @@ router.get('/', auth, async (req, res) => {
  
      if (!post) {
        return res.status(404).json({ msg: 'Post not found' });
+     
+
+     
      }
  
      res.json(post);
